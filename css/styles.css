@@ -32,12 +32,34 @@ article img {
 }
 
 .standard-img {
-    width: 100px;  /* adjust as needed */
-    height: 50px; /* adjust as needed */
+    width: 400px;
+    height: 250px;
+}
+
+.shop-background {
+    background-color: #808080;
 }
 
 h1 {
     font-size: 2rem;
+    text-align: center;
+    padding-right: 150px;
+}
+
+h2 {
+    background-color: #808080;
+}
+
+p {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto; /* centers the paragraph */
+    padding-right: 170px; /* moves the text a little bit to the left */
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
 }
 
 header > img {
@@ -83,6 +105,7 @@ article {
 footer {
     margin-top: 1rem;
     display: flex;
+    background-color: #808080;
 }
 
 footer {
